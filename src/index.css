@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+.heading{
+  text-align: center;
+  font-size: 2.4rem;
+  padding: 20px;
+  background-color: #333333c9;
+  font-weight: 800;
+}
+form{
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  padding: 10px 180px;
+  gap: 20px;
+}
+form input{
+  flex-basis: 80%;
+  padding: 3px 9px;
+  border-radius: 2px;
+  outline: none;
+  border: 2px solid black;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+form button{
+  flex-basis: 20%;
+  padding: 6px;
+  border-radius: 9px;
+  outline: none;
+  border: 2px solid black;
+  background-color: #99999987;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 120ms ease-in;
+}
+form button:hover{
+  background-color: #999999b2;
+}
+.outerBox{
+ background-color: rgba(107, 107, 107, 0.457);
+ padding: 19px;
+ margin: 20px;
+
+}
+.outerBox li{
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; */
+  background-color: rgb(226, 241, 245);
+  padding: 12px 90px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  list-style: none;
+  position: relative;
+}
+.cross{
+  position: absolute;
+  right: 80px;
+  top: 18px;
+}
+li span{
+  font-size: 29px;
+  cursor: pointer;
+}
+.completed{
+  text-decoration: line-through !important;
+  color: red !important;
+  text-align: center !important;
+}
